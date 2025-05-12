@@ -33,3 +33,8 @@ Then, edit the main.py file by changing the following 4 variables
 ## Images
 
 Images will all be stored in the "Images" Folder. Each run will generate 2 images, one for TSNE and one for PCA. If you run this file multiple times, new runs will overwrite the images from the old runs.
+
+
+## Example
+
+To see this library in use, open and run main.py. It currently analyzes randomly generated data in Data/Example.xlsx
