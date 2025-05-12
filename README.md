@@ -28,3 +28,8 @@ Then, edit the main.py file by changing the following 4 variables
 |input_start|The collumn number (0-indexed) where data for PCA and TSNE start| If you want to analyze the first row to the 10th inclusive, you should set this value to 0
 |input_end|The collumn number (0-indexed) where data for PCA and TSNE ends| If you want to analyze the first row to the 10th inclusive, you should set this value to 10
 |output_index|The collumn where you store the labels, based on 0-index| If the output variable is stored in the 11th collumn, set this variable to 10 (NOT 11!!).
+
+
+## Images
+
+Images will all be stored in the "Images" Folder. Each run will generate 2 images, one for TSNE and one for PCA. If you run this file multiple times, new runs will overwrite the images from the old runs.

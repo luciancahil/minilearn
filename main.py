@@ -6,13 +6,13 @@ import random
 import pandas as pd
 
 
-name = "2EOR"
+name = "Example"
 
-input_start = 3
+input_start = 1
 
-input_end = 9
+input_end = 4
 
-output_index = 11
+output_index = 7
 
 df = pd.read_excel('Data/{}.xlsx'.format(name))
 
