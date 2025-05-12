@@ -1,3 +1,5 @@
+conda create -n minilearn -y
+conda activate minilearn
 conda install matplotlib=3.10.3
 pip install scikit-learn==1.6.1
 pip install pandas==2.2.3

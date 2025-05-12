@@ -37,7 +37,7 @@ plt.scatter(x, y, c=label_list, cmap="RdBu", s=100)
 
 
 plt.colorbar()
-
+plt.title("{} PCA".format(name))
 plt.savefig("Images/{}_PCA.png".format(name))
 plt.clf()
 
@@ -47,6 +47,8 @@ x = tsne_results[:,0]
 y = tsne_results[:,1]
 
 plt.scatter(x, y, c=label_list, cmap="RdBu", s=100)
+plt.title("{} TSNE".format(name))
+
 plt.colorbar()
 
 plt.savefig("Images/{}_TSNE.png".format(name))
